@@ -1,32 +1,30 @@
-body {  
-    display: flex;  
-    font-family: Arial, sans-serif;  
-}  
+body {
+    background-color: #f0f0f0; /* Cor de fundo suave */
+}
 
-.content {  
-    flex: 1;  
-    padding: 20px;  
-    border-right: 2px solid #ccc; /* Barra de separação */  
-}  
+.sidebar {
+    background-color: #ffffff; /* Fundo branco para a sidebar */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+.content {
+    margin: 20px; /* Margem ao redor do conteúdo */
+}
 
-.sidebar {  
-    width: 600px;  
-    background-color: #f4f4f4;  
-    padding: 20px;  
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  
-}  
+header {
+    margin-top: 20px; /* Espaço acima dos headers */
+}
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte mais moderna */
+}
+.sidebar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Transição suave */
+}
 
-header {  
-    font-size: 1.5em;  
-    margin-bottom: 10px;  
-}  
-
-h1 {  
-    font-size: 1.2em;  
-    margin-top: 0;  
-}  
-
-img {  
-    max-width: 100%;  
-    height: auto;  
+.sidebar:hover {
+    transform: scale(1.02); /* Efeito de aumento ao passar o mouse */
+}
+img {
+    border-radius: 8px; /* Bordas arredondadas para imagens */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para imagens */
 }
