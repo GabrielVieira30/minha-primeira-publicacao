@@ -5,45 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Prova</title>  
     <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="stylesheet" href="assets/imgs/">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>  
 <body>  
-    <div class="content">  
+    <div class="container">  
+        <header class="main-header">
+            <h1>Publicações Web</h1>
+        </header>
+        <div class="content">  
 
-        <header>O que é uma publicação web, quais os dois tipos de aplicações existentes e suas principais diferenças?</header>
-        <p>Uma publicação web é a disponibilização de conteúdos na internet, podendo ser estática ou dinâmica. As duas principais aplicações são:</p>
-        <ul>
-            <li><strong>Aplicações Estáticas:</strong> Conteúdos fixos que não mudam a não ser que sejam editados manualmente.</li>
-            <li><strong>Aplicações Dinâmicas:</strong> Conteúdos que mudam de acordo com a interação do usuário ou dados em tempo real.</li>
-        </ul>
-        
+            <section class="question">
+                <h2>O que é uma publicação web, quais os dois tipos de aplicações existentes e suas principais diferenças?</h2>
+                <p>Uma publicação web é a disponibilização de conteúdos na internet, podendo ser estática ou dinâmica. As duas principais aplicações são:</p>
+                <ul>
+                    <li><strong>Aplicações Estáticas:</strong> Conteúdos fixos que não mudam a não ser que sejam editados manualmente.</li>
+                    <li><strong>Aplicações Dinâmicas:</strong> Conteúdos que mudam de acordo com a interação do usuário ou dados em tempo real.</li>
+                </ul>
+                <img src="assets/imgs/publicacao_web.png" alt="Publicação Web" />
+            </section>
 
-        <header>O que é um domínio e um DNS?</header>
-        <p>Um domínio é o endereço que identifica um site na internet, enquanto o DNS (Domain Name System) é o sistema que traduz nomes de domínio em endereços IP, permitindo que os navegadores localizem os sites.</p>
-      
+            <section class="question">
+                <h2>O que é um domínio e um DNS?</h2>
+                <p>Um domínio é o endereço que identifica um site na internet, enquanto o DNS (Domain Name System) é o sistema que traduz nomes de domínio em endereços IP, permitindo que os navegadores localizem os sites.</p>
+                <img src="assets/imgs/dominio_dns.png" alt="Domínio e DNS" />
+            </section>
 
-        <header>Explique o que é um servidor compartilhado e um servidor dedicado, evidenciando suas vantagens e desvantagens.</header>
-        <p>Um servidor compartilhado é um servidor onde vários sites estão hospedados, enquanto um servidor dedicado é um servidor exclusivo para um único site. Vantagens e desvantagens incluem:</p>
-        <ul>
-            <li><strong>Servidor Compartilhado:</strong> Vantagem: custo mais baixo. Desvantagem: menos recursos e desempenho.</li>
-            <li><strong>Servidor Dedicado:</strong> Vantagem: recursos exclusivos e melhor desempenho. Desvantagem: custo mais elevado.</li>
-        </ul>
-       
-        <header>O que é um servidor web, explique os dois principais servidores. Como fazer o backup de um projeto de forma compactada. Bem como restaurá-la.</header>
-        <p>Um servidor web é um sistema que armazena e entrega conteúdo web. Os dois principais servidores web são:</p>
-        <ul>
-            <li><strong>Apache:</strong> Popular e flexível.</li>
-            <li><strong>Nginx:</strong> Alto desempenho e eficiente em conexões simultâneas.</li>
-        </ul>
-        <p>Para fazer o backup de um projeto, use <code>zip</code> ou <code>tar</code> no terminal. Para restaurar, descompacte o arquivo.</p>
+            <section class="question">
+                <h2>Explique o que é um servidor compartilhado e um servidor dedicado, evidenciando suas vantagens e desvantagens.</h2>
+                <p>Um servidor compartilhado é um servidor onde vários sites estão hospedados, enquanto um servidor dedicado é um servidor exclusivo para um único site. Vantagens e desvantagens incluem:</p>
+                <ul>
+                    <li><strong>Servidor Compartilhado:</strong> Vantagem: custo mais baixo. Desvantagem: menos recursos e desempenho.</li>
+                    <li><strong>Servidor Dedicado:</strong> Vantagem: recursos exclusivos e melhor desempenho. Desvantagem: custo mais elevado.</li>
+                </ul>
+                <img src="assets/imgs/servidor_compartilhado_dedicado.png" alt="Servidor Compartilhado e Dedicado" />
+            </section>
 
-        <header>O que é um servidor de banco de dados, explique como fazer o backup e restaurar esse backup.</header>
-        <p>Um servidor de banco de dados é um sistema que fornece serviços de gerenciamento de dados. Para fazer o backup, use <code>mysqldump</code> para MySQL. Para restaurar, use o comando apropriado para importar o backup.</p>
+            <section class="question">
+                <h2>O que é um servidor web, explique os dois principais servidores. Como fazer o backup de um projeto de forma compactada. Bem como restaurá-la.</h2>
+                <p>Um servidor web é um sistema que armazena e entrega conteúdo web. Os dois principais servidores web são:</p>
+                <ul>
+                    <li><strong>Apache:</strong> Popular e flexível.</li>
+                    <li><strong>Nginx:</strong> Alto desempenho e eficiente em conexões simultâneas.</li>
+                </ul>
+                <p>Para fazer o backup de um projeto, use <code>zip</code> ou <code>tar</code> no terminal. Para restaurar, descompacte o arquivo.</p>
+                <img src="assets/imgs/backup_projeto.png" alt="Backup do Projeto" />
+            </section>
 
-        <header>O que é um serviço SSH, e como ele permite acessar um servidor web para transferir arquivos de uma máquina local e o servidor.</header>
-        <p>SSH (Secure Shell) é um protocolo que permite comunicação segura entre computadores. Ele permite acessar um servidor web e transferir arquivos usando <code>scp</code>.</p>
+            <section class="question">
+                <h2>O que é um servidor de banco de dados, explique como fazer o backup e restaurar esse backup.</h2>
+                <p>Um servidor de banco de dados é um sistema que fornece serviços de gerenciamento de dados. Para fazer o backup, use <code>mysqldump</code> para MySQL. Para restaurar, use o comando apropriado para importar o backup.</p>
+                <img src="assets/imgs/servidor_banco_de_dados.png" alt="Servidor de Banco de Dados" />
+            </section>
 
-        <header>Explique o que é um Linux e cite as principais distribuições usadas como servidor web.</header>
-        <p>Linux é um sistema operacional de código aberto. As principais distribuições usadas como servidor web incluem:</p>
-        <ul
+            <section class="question">
+                <h2>O que é um serviço SSH, e como ele permite acessar um servidor web para transferir arquivos de uma máquina local e o servidor.</h2>
+                <p>SSH (Secure Shell) é um protocolo que permite comunicação segura entre computadores. Ele permite acessar um servidor web e                 transferir arquivos usando <code>scp</code>.</p>
+                <img src="assets/imgs/ssh.png" alt="Serviço SSH" />
+            </section>
+        </div>
+        <footer class="main-footer">
+            <p>&copy; 2023 Minha Primeira Publicação. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>  
+</html>
